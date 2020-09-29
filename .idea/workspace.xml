@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec66a1f-3d7a-4e4a-bb36-4f785624dd25" name="Default Changelist" comment="updated file" />
+    <list default="true" id="2ec66a1f-3d7a-4e4a-bb36-4f785624dd25" name="Default Changelist" comment="modified">
+      <change afterPath="$PROJECT_DIR$/prgm1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -60,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600765130003</updated>
       <workItem from="1600765132602" duration="5805000" />
+      <workItem from="1600779633784" duration="255000" />
+      <workItem from="1601367539772" duration="6949000" />
     </task>
     <task id="LOCAL-00001" summary="created html file">
       <created>1600765476914</created>
@@ -75,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600779382669</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed file name">
+      <created>1600779762599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600779762599</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified">
+      <created>1600779820725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600779820725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,20 +111,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created html file" />
     <MESSAGE value="updated file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated file" />
+    <MESSAGE value="changed file name" />
+    <MESSAGE value="modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="389" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601369795377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1601369795377" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1600765884816">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600765884816" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600779502526">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600779831582">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600779502526" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600779831582" />
   </component>
 </project>
