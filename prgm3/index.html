@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lab Program 3</title>
+    <script>
+        var fs=5;
+        function textAnimate() {
+                var timer=setInterval(animate,100)
+                var state="growing"
+                function animate(){
+                    if(state=="growing")
+                    {
+                        fs+=5
+                        document.getElementById('text').style.fontSize=fs+'pt';
+                        document.getElementById('text').style.color="red"
+                        document.getElementById('text').innerText="TEXT GROWING"
+
+                    }
+                    if(state=="shrinking")
+                    {
+                        fs-=5
+                        document.getElementById('text').style.fontSize=fs+'pt';
+                        document.getElementById('text').style.color="blue"
+                        document.getElementById('text').innerText="TEXT SHRINKING"
+                    }
+                    if(fs==50){
+                        state="shrinking";
+                    }
+                    if(fs==5){
+                        clearInterval(timer);
+                    }
+                }
+        }
+    </script>
 </head>
-<body>
-    <h1>Hello World</h1>
+<body onload="textAnimate()">
+    <h1 align="center">Program to Increase/Decrease the font size</h1>
+    <p align="center" id="text"></p>
 </body>
 </html>

@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec66a1f-3d7a-4e4a-bb36-4f785624dd25" name="Default Changelist" comment="Lab program 1">
-      <change afterPath="$PROJECT_DIR$/prgm3/index.html" afterDir="false" />
+    <list default="true" id="2ec66a1f-3d7a-4e4a-bb36-4f785624dd25" name="Default Changelist" comment="Lab program 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prgm3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prgm3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -66,7 +67,7 @@
       <workItem from="1600765132602" duration="5805000" />
       <workItem from="1600779633784" duration="255000" />
       <workItem from="1601367539772" duration="7048000" />
-      <workItem from="1601960166104" duration="2968000" />
+      <workItem from="1601960166104" duration="7823000" />
     </task>
     <task id="LOCAL-00001" summary="created html file">
       <created>1600765476914</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601376040590</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lab program 3">
+      <created>1601973382390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601973382390</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +135,8 @@
     <MESSAGE value="changed file name" />
     <MESSAGE value="modified" />
     <MESSAGE value="Lab program 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab program 1" />
+    <MESSAGE value="Lab program 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab program 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="389" y="195" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601369795377">
@@ -138,9 +147,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600765884816" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601376045879">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601973399777">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601376045879" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601973399777" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1601977811213">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1601977811213" />
   </component>
 </project>
