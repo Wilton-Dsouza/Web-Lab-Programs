@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE student_info [
+    <!ELEMENT student_info (h1,h2+,label+)>
+    <!ELEMENT h1 (#PCDATA)>
+    <!ELEMENT h2 (#PCDATA)>
+    <!ELEMENT label (#PCDATA|USN|name|coll|branch|year|email)*>
+    <!ELEMENT USN (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT coll (#PCDATA)>
+    <!ELEMENT branch (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    ]>
+<student_info>
+  <h1>Student Information</h1>
+  <h2>Student 1 Information:</h2>
+    <label>USN: <USN>123</USN></label>
+    <label>Name: <name>Wilton</name></label>
+    <label>College: <coll>SJEC</coll></label>
+    <label>Branch: <branch>CSE</branch></label>
+    <label>Year: <year>2018</year></label>
+    <label>Email: <email>wiltondsouza100@gmail.com</email></label>
+  <h2>Student 2 Information:</h2>
+    <label>USN: <USN>456</USN></label>
+    <label>Name: <name>Vinsten</name></label>
+    <label>College: <coll>SJEC</coll></label>
+    <label>Branch: <branch>CSE</branch></label>
+    <label>Year: <year>2018</year></label>
+    <label>Email: <email>vinstendsouza100@gmail.com</email></label>
+  <h2>Student 3 Information:</h2>
+    <label>USN: <USN>789</USN></label>
+    <label>Name: <name>Winston</name></label>
+    <label>College: <coll>SJEC</coll></label>
+    <label>Branch: <branch>CSE</branch></label>
+    <label>Year: <year>2018</year></label>
+    <label>Email: <email>winstonpais100@gmail.com</email></label>
+</student_info>
