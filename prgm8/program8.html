@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prorgam 8</title>
+    <style>
+        div{
+            padding-top: 20px;
+        }
+        #subbtn{
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid grey;
+            background-color: black;
+            color: white;
+            height: 25px;
+            -webkit-box-shadow: 6px 6px 14px -8px rgba(0,0,0,0.75);
+            -moz-box-shadow: 6px 6px 14px -8px rgba(0,0,0,0.75);
+            box-shadow: 6px 6px 14px -8px rgba(0,0,0,0.75);
+        }
+        #subbtn:active{
+            background-color: white;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form action="prog8a.php" method="post">
+       <div>
+        <label for="first">First Operand: <input name="first" id="first" type="text" pattern="[0-9.]+" title="Only numbers are allowed!" required></label>
+       </div>
+        <div>
+            <label for="ch">Choose an operator: <input type="radio" name="operator" value="+" id="plus"> <label for="plus">Add (+)</label>
+            <input type="radio" name="operator" value="-" id="sub" required> <label for="sub">Subtract (-)</label>
+            <input type="radio" name="operator" value="*" id="mul"> <label for="mul">Multiply (*)</label>
+            <input type="radio" name="operator" value="/" id="div"> <label for="div">Division (/)</label></label>
+        </div>
+        <div>
+            <label for="second">Second Operand: <input name="second"  id="second" pattern="[0-9.]+" type="text" required></label>
+           </div>
+           <div>
+               <button id="subbtn" type="submit">Submit</button>
+           </div>
+    </form>
+</body>
+</html>

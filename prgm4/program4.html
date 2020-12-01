@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prorgam 4</title>
+</head>
+<style>
+    .okbutton{
+        background-color: #f77d6f;
+        border-radius:6px;
+        height:30px;
+        width:80px;
+        color: black;
+        outline: none;
+        border-radius: 0px solid black;
+    }
+    .okbutton:active{
+        outline: none;
+        background-color: black;
+        color: white;
+        border-radius: 0px solid black;
+    }
+</style>
+<body>
+    <center><h1>Program to find left most vowel or reverse digit</h1></center>
+   <center>
+    <div style="-webkit-box-shadow: 7px 4px 19px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 4px 19px -6px rgba(0,0,0,0.75);
+    box-shadow: 7px 4px 19px -6px rgba(0,0,0,0.75); border-radius: 10px; height: 100px;width:400px;background-color: whitesmoke;margin-top:50px">
+        <form action="javascript:callme()">
+            <input style="margin-top:30px ;" type="text" name="" id="taketext" placeholder="Enter an Input" required>
+            <Button type="submit">Submit</Button>
+        </form>
+        
+    </div>  
+   </center>
+   <div id="middle_screen" style="display: none;">henlo</div>
+   <script>
+       function callme(){
+           var flag = 0;
+           var temp = document.getElementById("taketext").value;
+           document.getElementById("middle_screen").style.display = "flex";
+  document.getElementById("middle_screen").style.justifyContent = "center";
+  document.getElementById("middle_screen").style.alignItems = "center";
+  document.getElementById("middle_screen").style.height = screen.height;
+  document.getElementById("middle_screen").style.marginTop = "160px"
+    document.getElementById("middle_screen").innerHTML +=""
+           if(!isNaN(temp)){
+            temp = temp.split("").reverse().join("");
+            document.getElementById("middle_screen").innerHTML = "<div id="+'henlo'+" style="+'height:200px;width:400px;background-color:whitesmoke;'+"><div style="+'margin:30px'+">The reversed number is: "+temp+"</div><div style="+'position:absolute;bottom:230px;right:600px'+"><Button onclick="+'closeme()'+" class="+'okbutton'+">OK</Button></div></div>"
+            document.getElementById("henlo").style.boxShadow = "7px 4px 19px -6px rgba(0,0,0,0.75)";
+           }
+           else{
+               for(var i=0;i<temp.length;i++){
+                   if(temp[i] == 'a' || temp[i] == 'e' || temp[i] == 'i' ||temp[i] == 'o' ||temp[i] == 'u'||temp[i] == 'A' || temp[i] == 'E' ||temp[i] == 'I'||temp[i] == 'O'||temp[i] == 'U'){
+                       flag= 1;
+                    document.getElementById("middle_screen").innerHTML = "<div id="+'henlo'+" style="+'height:200px;width:400px;background-color:whitesmoke;'+"><div style="+'margin:30px'+">The Vowel Found at index: "+(i+1)+"</div><div style="+'position:absolute;bottom:230px;right:600px'+"><Button onclick="+'closeme()'+" class="+'okbutton'+">OK</Button></div></div>"
+                    document.getElementById("henlo").style.boxShadow = "7px 4px 19px -6px rgba(0,0,0,0.75)";
+                       break
+                   }
+               }
+if(flag == 0){
+    document.getElementById("middle_screen").innerHTML = "<div id="+'henlo'+" style="+'height:200px;width:400px;background-color:whitesmoke;'+"><div style="+'margin:30px'+">No Vowel Found!</div><div style="+'position:absolute;bottom:230px;right:600px'+"><Button onclick="+'closeme()'+" class="+'okbutton'+">OK</Button></div></div>"
+    document.getElementById("henlo").style.boxShadow = "7px 4px 19px -6px rgba(0,0,0,0.75)";
+}
+           }
+           var temp = document.getElementById("taketext").value = "";
+       }
+       function closeme(){
+           document.getElementById("middle_screen").style.display = "none";
+       }
+   </script>
+</body>
+</html>
+<!-- armstrong number logic -->
+<!-- var toc= temp.split("");
+var fina_res = 0;
+for(var i=0;i<toc.length;i++){
+      fina_res+=toc[i]**toc.length
+}
+alert(toc)
+if(fina_res == temp){
+    alert("is a armstrong number")
+}
+else{
+    alert("Not a armstrong number")
+} -->
